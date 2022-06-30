@@ -31,3 +31,5 @@ RUN apt-get update \
         cmake \
         kitware-archive-keyring \
     && rm -rf /var/lib/apt/lists/*
+
+ENV CMAKE_GENERATOR=Ninja
